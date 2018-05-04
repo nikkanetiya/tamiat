@@ -66,11 +66,6 @@ export default new Router({
           component: Database
         }
       ]
-    },
-    {
-      path: '*',
-      name: 'default',
-      component: Home
     }
   ]
 })
